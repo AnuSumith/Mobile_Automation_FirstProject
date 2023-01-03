@@ -1,0 +1,12 @@
+timeout: 50
+
+elements:
+    userName:
+        findBy: xpath
+        locator: //*[@content-desc='user_name']
+    password:
+        findBy: xpath
+        locator: //*[@content-desc='password']
+    button : 
+        findBy: xpath
+        locator: //*[@content-desc="btn"] 
